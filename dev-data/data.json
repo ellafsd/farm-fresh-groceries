@@ -1,0 +1,79 @@
+[
+  {
+    "id": 0,
+    "productName": "Goat Cheese",
+    "image": "🧀",
+    "from": "Portugal",
+    "nutrients": "Vitamin A, Calcium",
+    "quantity": "250 g",
+    "price": "$7.00",
+    "organic": false,
+    "description": "Creamy and rich goat cheese, perfect for salads, sandwiches, or cheese boards."
+  },
+  {
+    "id": 1,
+    "productName": "Fresh Carrots",
+    "image": "🥕",
+    "from": "Canada",
+    "nutrients": "Vitamin B, Vitamin K",
+    "quantity": "20 🥕",
+    "price": "$5.00",
+    "organic": true,
+    "description": "Crunchy and sweet organic carrots, freshly harvested for maximum flavor."
+  },
+  {
+    "id": 3,
+    "productName": "Organic Tomatoes",
+    "image": "🍅",
+    "from": "Italy",
+    "nutrients": "Vitamin C, Lycopene",
+    "quantity": "1 kg",
+    "price": "$7.00",
+    "organic": true,
+    "description": "Fresh, juicy organic tomatoes, handpicked straight from the vine."
+  },
+  {
+    "id": 4,
+    "productName": "Almond Milk",
+    "image": "🥛",
+    "from": "Spain",
+    "nutrients": "Vitamin E, Calcium",
+    "quantity": "1 L",
+    "price": "$5.00",
+    "organic": false,
+    "description": "Smooth and lactose-free plant-based almond milk, perfect for a healthy lifestyle."
+  },
+  {
+    "id": 5,
+    "productName": "Natural Honey",
+    "image": "🍯",
+    "from": "Turkey",
+    "nutrients": "Antioxidants, Vitamin C",
+    "quantity": "500 g",
+    "price": "$35.00",
+    "organic": true,
+    "description": "Pure, additive-free natural honey produced at high altitudes for exceptional taste."
+  },
+  {
+    "id": 6,
+    "productName": "Avocado",
+    "image": "🥑",
+    "from": "Mexico",
+    "nutrients": "Vitamin E, Potassium",
+    "quantity": "3 pcs",
+    "price": "$10.00",
+    "organic": false,
+    "description": "Creamy avocados with a rich flavor, ideal for breakfasts, salads, or guacamole."
+  },
+  {
+    "id": 7,
+    "productName": "Organic Spinach",
+    "image": "🥬",
+    "from": "Netherlands",
+    "nutrients": "Iron, Vitamin A",
+    "quantity": "500 g",
+    "price": "$4.00",
+    "organic": true,
+    "description": "Fresh, nutrient-packed organic spinach leaves, a powerhouse of vitamins and minerals."
+  }
+]

@@ -1,0 +1,159 @@
+<!-- TEMPLATE FOR WHOLE PAGE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farm-Fresh Groceries</title>
+
+    <style>
+      *,
+      *::before,
+      *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+      }
+      html {
+        font-size: 10px;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 20px 40px 10px;
+        background: linear-gradient(to bottom right, #9be15d, #00e3ae);
+        min-height: 100vh;
+        font-family: sans-serif;
+        line-height: 1.7;
+      }
+      h1 {
+        font-size: 4rem;
+        color: white;
+        transform: skewY(-5deg);
+        text-align: center;
+        position: relative;
+        word-spacing: 3px;
+      }
+      .container {
+        width: 100%;
+        margin: 0 auto;
+      }
+
+      .cards-container {
+        margin-top: 8rem;
+      }
+      .card {
+        background-color: white;
+        box-shadow: 0 2rem 6rem 1rem rgba(0, 0, 0, 0.2);
+        margin-bottom: 5rem;
+        display: flex;
+        transform: skewX(-10deg);
+        padding: 0.5rem;
+      }
+      .card_emoji {
+        font-size: 5.5rem;
+        line-height: 1.2;
+        padding: 1.5rem 6rem 1rem 2rem;
+        transform: skewX(10deg);
+        letter-spacing: -4rem;
+      }
+      .card_title-box {
+        background: linear-gradient(to bottom, #9be15d, #00e3ae);
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        padding: 0 3rem;
+      }
+
+      /* .card_details {
+        display: flex;
+        flex-direction: column;
+      } */
+
+      .card_details {
+        display: flex;
+        flex-direction: row;
+        min-width: 22rem;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.6rem;
+        margin-left: auto;
+        white-space: nowrap;
+        font-variant-numeric: tabular-nums;
+      }
+      .card_detail-box {
+        border: 0;
+        padding: 0 1.25rem;
+      }
+      .card_detail-box + .card_detail-box {
+        border-left: 1px solid #ddd;
+        padding-left: 1.75rem;
+      }
+
+      /* .card_detail-box {
+        align-self: stretch;
+        display: flex;
+        align-items: center;
+        border-right: 1px solid #ddd;
+      } */
+
+      /* .card_detail-box:last-child {
+        border: none;
+      } */
+      .card_detail {
+        font-weight: 400;
+        font-size: 1.8rem;
+        transform: skewX(10deg);
+        padding: 0 1.75rem;
+      }
+      .card_detail-organic {
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 1.9rem;
+        background: linear-gradient(to right, #9be15d, #00e3ae);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .card_detail-price {
+        font-weight: 900;
+        font-size: 1.9rem;
+      }
+      .not-organic {
+        display: none;
+      }
+      .card_link:link,
+      .card_link:visited {
+        flex: 0 0 auto;
+        background-color: #79e17b;
+        color: white;
+        font-size: 1.6rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        transition: 0.3s all;
+      }
+      .card_link:hover,
+      .card_link:active {
+        background-color: #9be15d;
+      }
+      @media (max-width: 560px) {
+        .card_details {
+          flex-wrap: wrap;
+          row-gap: 0.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>🌽 Fresh Products 🥑</h1>
+      <div class="cards-container">{%PRODUCT_CARDS%}</div>
+    </div>
+  </body>
+</html>
