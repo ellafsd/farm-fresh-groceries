@@ -3,11 +3,11 @@ Node.js app that serves a grocery overview and per-product pages using plain HTM
 
 # Demo
 ![App demo] <br />
-(docs/screen-recording.gif)
+(docs/ScreenRecording.gif)
 
 ## Screenshots
-![Overview page](docs/overview.png)
-![Product page](docs/product.png)
+![Overview page](docs/Screenshot1.png)
+![Product page](docs/Screenshot2.png)
 
 ## Technologies Used
 - **Node.js (v18+)** 
