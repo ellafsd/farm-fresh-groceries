@@ -1,5 +1,5 @@
 # farm-fresh-groceries
-Node.js app that serves a grocery overview and per-product pages using plain HTML templates and JSON data.
+**Node.js app that serves a grocery overview and per-product pages using plain HTML templates and JSON data.** <br />
 
 # Demo
 ![App demo](docs/ScreenRecording.gif)
