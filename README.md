@@ -2,8 +2,7 @@
 Node.js app that serves a grocery overview and per-product pages using plain HTML templates and JSON data.
 
 # Demo
-![App demo] <br />
-(docs/ScreenRecording.gif)
+![App demo](docs/ScreenRecording.gif)
 
 ## Screenshots
 ![Overview page](docs/Screenshot1.png)
